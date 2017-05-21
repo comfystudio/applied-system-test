@@ -1,0 +1,176 @@
+body{
+    background-image: url("../img/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-logo{
+    padding-top:27px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+.header-logo img{
+    float:right;
+}
+
+.top-img img{
+    width:100%;
+}
+
+.blue-box{
+    background: rgba(0, 158, 219, .75);
+    padding:20px 40px !important;
+    font-family: "ProximaNova", Helvetica, Roboto, Arial, sans-serif;
+    color:#ffffff;
+    line-height: 1.2;
+    margin-bottom: 11px !important;
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.font-22{
+    font-size: 22px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.blue-box p{
+    margin-bottom: 2rem;
+}
+
+.blue-box a{
+    color:white;
+}
+
+.blue-box a:hover{
+    color:white;
+}
+
+.letter-space{
+    letter-spacing: 5px;
+}
+
+#form-button{
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+    padding: 0 20px 0 10px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+form input{
+    color:black;
+}
+
+#form-button:hover{
+    background-color: #00b3e4;
+    border-color: #00b3e4;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    opacity:  0.5;
+}
+:-moz-placeholder {  /* Mozilla Firefox 4 to 18 */
+    opacity:  0.5;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    opacity:  0.5;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    opacity:  0.5;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    opacity:  0.5;
+}
+
+.form-header{
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.left-header{
+    font-size: 2.0rem;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.left-box p{
+    font-size: 2.0rem;
+    letter-spacing: 1px;
+}
+
+.left-box span{
+    float: left;
+    padding-left: 20px;
+    font-size: 2rem;
+}
+
+.indent{
+    margin-left: 5rem;
+}
+
+.indent2{
+    margin-left: 9rem;
+}
+
+.margin-bottom-25{
+    margin-bottom: 25px;
+}
+
+.chevron{
+    position: relative;
+    top: 3px;
+    right: 14px;
+}
+
+.footer-text{
+    color:white;
+    font-size: 1.2rem;
+    padding-left: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.footer-logo{
+    padding-right: 4rem;
+}
+
+.error{
+    color: indianred;
+}
+
+.text-centre{
+    text-align: center;
+}
+
+.no-margin{
+    margin: 0!important;
+}
+
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select{
+    height:31px !important;
+    margin-bottom: 2.5rem;
+    border-radius: 0 !important;
+}
+
+/*Larger than 550px*/
+@media (min-width: 550px) {
+    .header-logo img{
+        float:none;
+    }
+
+    .footer-logo{
+        float: right;
+    }
+}
